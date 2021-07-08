@@ -1,0 +1,58 @@
+body{
+    padding-top: 20px;
+    background-color: teal;
+}
+
+.form{
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    width: 100%;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+    
+}
+
+input{
+    outline: 0;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-width: 0 0 1px;
+    border-color: black;
+}
+
+a{
+    color: #ccc;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
