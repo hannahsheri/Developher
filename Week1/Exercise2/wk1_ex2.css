@@ -1,0 +1,65 @@
+main {
+    background-color:#ee7779;
+    height: 100%;
+    overflow: auto;
+    font-family: sans-serif;
+}
+
+form {
+    width: 50%;
+    background-color:#ededed;
+    margin: auto;
+    padding: 40px;
+}
+
+h2 {
+    color: gray;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+input {
+    background-color: white;
+}
+
+.full_width_input {
+    width: 100%;
+    border: 1px solid darkgray;
+    padding: 10px;
+    margin: 15px 0;
+
+}
+/* Alternative for a class name: you can selet input by type 
+input[type="text"],
+input[type="password"] {
+    background-color: white;
+    display: block;
+    width: 100%;
+}
+*/
+
+.button_container {
+    display: block;
+    text-align: center;
+}
+
+button {
+    background-color: #7bd9d5;
+    outline: 0;
+    border: 0;
+    width: 150px;
+    padding: 10px;
+    color: white;
+}
+label {
+    color: gray;
+}

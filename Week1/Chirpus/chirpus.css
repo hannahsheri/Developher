@@ -1,0 +1,130 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
+    color: #69696a;
+    padding: 0 16px;
+    position: relative;
+}
+
+.navigation{
+    
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+}
+.circle {
+    display: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation > a {
+    color: #000;
+}
+
+nav > a {
+    color: #69696a;
+}
+
+h1 {
+    color: #000;
+}
+
+.content{
+    margin: 10% 0% 0% 0%;
+}
+
+blockquote {
+    border-left: solid  2px #69696a;
+    margin-left: 0;
+    padding-left: 16px; 
+
+}
+
+#logo{
+    color: 000;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 24px;
+    padding: 8px 16px;
+    border: none;
+}
+
+.cta{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer{
+    background-color: rgba(247, 193, 162, 0.7);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer > a {
+    color: #000;
+}
+.links > a {
+    color: #69696a;
+}
+
+@media (min-width: 768px) {
+
+    .navigation {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav {
+        flex-direction: row;
+    }
+    .content {
+         width: 50%;
+    }
+    .circle {
+        position: absolute;
+        display: block;
+        border-radius: 50%;
+    }
+    .circle-large {
+        background-color: rgba(247, 136, 167, 0.6);
+        width: 200px;
+        height: 200px;
+        right: 100px;
+        top: 80%
+    }
+    .circle-medium {
+        background-color:  rgba(247, 193, 162, 0.7);
+        width: 150px;
+        height: 150px;
+        right: 10px;
+        top: 100%;
+        z-index: 100;
+    }
+    .circle-small {
+        background-color:  rgba(207, 130, 213, 0.6);
+        width: 100px;
+        height: 100px;
+        right: 40px;
+        top: 85%
+    }
+}
