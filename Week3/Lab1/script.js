@@ -45,3 +45,25 @@ else {
     weeks = Math.ceil(1000000/pay);
     console.log(`I earn $${wage} per hour working 40 hours a week. This week, I worked a total of ${hours} hours. In total, I will take home ${pay}.`)
 }
+
+//create function to calculate overtime hours
+
+function namedFunction(hours) {
+    const overtime = hours - 40;
+    return overtime;
+}
+// arrow function
+// const arrowFunction = (hours) => hours - 40;
+
+const variableFunction = function(hours) {
+    const overtime = hours - 40;
+    return overtime;
+}
+if (hours > 40){
+    const overtime = variableFunction(hours)
+    total_paycheck = (hours - overtime) * wage;
+    const overtime_pay = overtime * wage * 1.5;
+    total_paycheck += overtime_pay;
+} else {
+    total_paycheck = hours * wage;
+}
